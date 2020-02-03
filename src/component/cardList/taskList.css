@@ -1,0 +1,89 @@
+.card {
+  display: flex;
+  width: 390px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 0px 2px 10px black;
+}
+
+.card .card-left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.card .card-left .circle {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.card .card-left .taskTitle {
+  position: absolute;
+  left: 40px;
+}
+.card .card-left .taskTitle h5 {
+  color: #8b8787;
+  font-size: 0.7rem;
+}
+
+.card-right {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.edit {
+  display: block;
+  width: 22px;
+  height: 25px;
+  padding: none;
+  background-image: url("../img/edit.png");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.delete {
+  display: block;
+  cursor: pointer;
+  width: 22px;
+  height: 25px;
+  padding: none;
+  margin-top: 10px;
+  background-image: url("../img/trash.png");
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+.card .card-left .yes {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  background-image: url("../img/yes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: line-through;
+}
+
+.changeTitle {
+  color: #8b8787;
+  text-decoration: line-through;
+  position: absolute;
+  left: 40px;
+}
+
+.empty {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #8b8787;
+  margin-right: 50px;
+}

@@ -1,0 +1,35 @@
+.form {
+  width: 390px;
+  display: flex;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+
+.input {
+  width: 75%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+  font-size: 1.2rem;
+  border-bottom: 2px solid black;
+}
+.input:hover,
+.input:focus {
+  outline: none;
+}
+.submit {
+  width: 50px;
+  font-size: 1.8rem;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+  color: white;
+  margin-left: -15px;
+  background: black;
+}
+.submit:hover,
+.submit:focus {
+  outline: none;
+  padding: 1px;
+}
